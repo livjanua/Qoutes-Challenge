@@ -8,7 +8,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #f7b28b;
+  background: #ffbc92;
   padding: 10px 20px;
   position: sticky;
   top: 0;
@@ -40,16 +40,29 @@ ul li a {
 }
 
 ul li a:hover {
-  background-color: antiquewhite;
-  border-radius: 5px;
+  text-decoration: underline;
 }
 
 body {
   text-align: center;
   background-color: #fcefe9;
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 75px;
+  padding: 20px;
+  margin-bottom: 120px;
+  color: #795346;
 }
 
 p {
+  color: #795346;
   padding: 5px;
   font-size: 18px;
   line-height: 1.5;
@@ -57,18 +70,54 @@ p {
 }
 
 header {
-  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/157/457/original/Vecteurs_et_illustrations_de_Fonds_Ecran_Fleurs_en_t%C3%A9l%C3%A9chargement_gratuit___Freepik.jpeg?1739448077);
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/157/472/original/3425522.jpg?1739452423);
   padding: 155px;
-  background-size: auto;
-  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100%;
 }
+
+header button {
+  color: #795346;
+  font-family: "Instrument Serif", serif;
+  font-weight: light;
+  font-style: normal;
+  padding: 20px 55px;
+  margin-bottom: 85px;
+  border-radius: 15px;
+  border: 1px solid #de6e63;
+  text-transform: capitalize;
+}
+
+header button:hover {
+  color: #ffffff;
+  background: #de6e63;
+}
+
 main {
   padding: 85px;
 }
 
 footer {
-  background: yellowgreen;
+  background: #ff6e99;
   padding: 85px;
+}
+
+footer button {
+  color: #795346;
+  font-family: "Instrument Serif", serif;
+  font-weight: light;
+  font-style: normal;
+  padding: 20px 55px;
+  margin: 20px 55px;
+  border-radius: 15px;
+  border: 1px solid #de6e63;
+  text-transform: capitalize;
+}
+
+footer button:hover {
+  color: #ffffff;
+  background: #de6e63;
 }
 
 img {
@@ -87,4 +136,21 @@ img {
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+.main-paragraph {
+  margin-bottom: 30px;
+  color: #795346;
+  font-size: 45px;
+}
+
+.weekday {
+  color: #795346;
+  margin: 10px;
+}
+
+.socials {
+  color: #795346;
+  font-size: 20px;
+  font-weight: bold;
 }
