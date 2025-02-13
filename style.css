@@ -1,5 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f7b28b;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000%;
+}
+
+.logo {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+ul li {
+  margin: 0 15px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 8px 12px;
+  display: inline-block;
+}
+
+ul li a:hover {
+  background-color: antiquewhite;
+  border-radius: 5px;
+}
+
 body {
   text-align: center;
-  width: 50%;
-  margin: 0 auto;
+  background-color: #fcefe9;
+}
+
+p {
+  padding: 5px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+header {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/157/457/original/Vecteurs_et_illustrations_de_Fonds_Ecran_Fleurs_en_t%C3%A9l%C3%A9chargement_gratuit___Freepik.jpeg?1739448077);
+  padding: 155px;
+  background-size: auto;
+  background-position: center;
+}
+main {
+  padding: 85px;
+}
+
+footer {
+  background: yellowgreen;
+  padding: 85px;
+}
+
+img {
+  width: 120px;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
