@@ -179,6 +179,19 @@ img {
 }
 
 @media (max-width: 900px) {
+  nav {
+    padding: 5px 12px;
+  }
+
+  ul li {
+    margin: 0 9px;
+  }
+
+  ul li a {
+    font-size: 10px;
+    padding: 5px 8px;
+  }
+
   h1 {
     font-size: 25px;
     line-height: 20px;
@@ -189,13 +202,20 @@ img {
   }
 
   p {
-    padding: 3px;
+    padding: 5px;
     font-size: 10px;
-    line-height: 1;
   }
 
   img {
     width: 75px;
+  }
+
+  main {
+    padding: 40px;
+  }
+
+  .logo {
+    font-size: 15px;
   }
 
   header {
@@ -206,5 +226,20 @@ img {
     font-size: 15px;
     padding: 10px 25px;
     margin-bottom: 35px;
+  }
+
+  footer button {
+    font-size: 15px;
+    padding: 10px 25px;
+    margin-bottom: 35px;
+  }
+  .share-on {
+    font-size: 15px;
+    margin: 8px;
+  }
+
+  social-logos {
+    font-size: 12px;
+    padding: 8dvh 10px;
   }
 }
